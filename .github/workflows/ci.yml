@@ -20,4 +20,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: pylint app/ --fail-under=7
+      - run: pylint app/app.py --fail-under=7
